@@ -1,0 +1,1 @@
+This example demonstrates a common error in Swift's async/await programming model. The fetchData function uses try await to fetch data from a URL. However, if the URL request fails, the function throws an error. This error is not caught, and will lead to an unhandled exception and crash.  The solution shows how to handle the error correctly.
